@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer utilities {
+
+
+}
+
+@layer components {
+
+} 
