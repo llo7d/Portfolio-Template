@@ -1,0 +1,3 @@
+- fix scrolling ( script.js )
+- fix thing showing up on mobile
+- make all assets into components
