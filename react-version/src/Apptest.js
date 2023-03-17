@@ -1,25 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import './App.css';
-import NavBar from './components/NavBar';
-import Hero from './components/Hero';
-import AboutMe from './components/AboutMe';
-import Portfolio from './components/Portfolio';
-import Footer from './components/Footer';
 
 function App() {
-
-
   const [prevScrollPos, setPrevScrollPos] = useState(0);
-  let hideNavMenuIcon;
-  let navMenuIcon;
-  let hideSidebar;
-  let navMove;
-
-
-  function toggleNavbar() {
-    hideNavMenuIcon(navMenuIcon);
-    hideSidebar(navMove);
-  }
 
   useEffect(() => {
     const ready = (fn) => {
@@ -32,9 +14,9 @@ function App() {
 
     ready(() => {
       const nav = document.getElementById('nav');
-      navMove = document.getElementById('navMove');
+      const navMove = document.getElementById('navMove');
       const navButton = document.getElementById('navButton');
-      navMenuIcon = document.getElementsByClassName('navMenuIcon');
+      const navMenuIcon = document.getElementsByClassName('navMenuIcon');
       const navLogo = document.getElementById('navLogo');
 
       const navMenuAbout = document.getElementsByClassName('navMenuAbout');
@@ -47,7 +29,7 @@ function App() {
       const sectionContact = document.getElementById('sectionContact');
 
       // Hide or show icon menu navbar
-      hideNavMenuIcon = (menu) => {
+      const hideNavMenuIcon = (menu) => {
         for (let index = 0; index < menu.length; index++) {
           if (menu[index].classList.contains('block')) {
             menu[index].classList.remove('block');
@@ -60,7 +42,7 @@ function App() {
       };
 
       // Hide or show sidebar
-      hideSidebar = (sidebar) => {
+      const hideSidebar = (sidebar) => {
         if (sidebar.classList.contains('invisible')) {
           sidebar.classList.remove('invisible', 'translate-x-full');
           sidebar.classList.add('translate-x-0');
@@ -75,9 +57,10 @@ function App() {
       };
 
       // Show sidebar event
-      // navButton.addEventListener('click', () => {
-
-      // });
+      navButton.addEventListener('click', () => {
+        hideNavMenuIcon(navMenuIcon);
+        hideSidebar(navMove);
+      });
 
       // Scroll to element event
       const scrollToView = (by, to) => {
@@ -123,37 +106,6 @@ function App() {
         }
         setPrevScrollPos(currentScrollPos);
       };
-      //scroll to top event
-      navLogo.addEventListener('click', () => {
-        // Check if the sidebar open.
-        //if open then, close it
-        if (navMove.classList.contains('translate-x-0')) {
-          // Then change menu
-          hideNavMenuIcon(navMenuIcon);
-          //finally hide the sidebar
-          hideSidebar(navMove);
-        }
-
-        window.scrollTo({
-          top: 0,
-          behavior: 'smooth',
-        });
-      });
     });
   });
-
-  return (
-    <>
-      <NavBar />
-      <main className="my-12 h-full w-full flex-1 overflow-hidden">
-        <Hero />
-        <AboutMe />
-        <Portfolio />
-      </main>
-      <Footer />
-
-    </>
-  );
 }
-
-export default App;
