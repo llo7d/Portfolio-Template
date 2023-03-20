@@ -229,7 +229,7 @@ function App() {
               <div className="z-10 flex">
                 <img
                   className="overflow-hidden object-cover object-top sm:h-[500px] sm:w-[500px]"
-                  src="./assets/img/hero/person.png"
+                  src="./assets/img/hero/hero.png"
                   alt="Peter LIoyd"
                 />
                 {/* <!-- Scroll Down Button --> */}
@@ -339,7 +339,7 @@ function App() {
                       <div className="relative">
                         <img
                           className="absolute inset-0"
-                          src="./assets/img/about/person.png"
+                          src="./assets/img/about/about.png"
                           alt="Peter LIoyd"
                         />
                         <img src="./assets/img/about/bg.png" alt="Linear Bg" />
@@ -466,7 +466,7 @@ function App() {
               >
                 <img
                   className="h-full w-full rounded-2xl border-transparent bg-secondary object-cover object-center"
-                  src="./assets/img/portfolio/portfolio1.png"
+                  src="./assets/img/portfolio/portfolio2.png"
                   alt="Post"
                 />
               </a>
@@ -659,7 +659,7 @@ function App() {
               {/* <!-- End Social Card --> */}
             </div>
             <div className="flex-1">
-              <img src="./assets/img/contact/person.png" alt="Peter LIoyd" />
+              <img src="./assets/img/contact/contact.png" alt="Peter LIoyd" />
             </div>
           </div>
         </section>
