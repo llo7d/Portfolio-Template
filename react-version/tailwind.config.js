@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+/** @type {import('tailwindcss').Config}  */
 const colors = require('tailwindcss/colors')
 
 const customColors = {
@@ -25,6 +25,7 @@ module.exports = {
       textColor: {
         'primary': customColors.white,
         'secondary': customColors.blue,
+        // 'secondary': "#00FF00",
         'tertiary': customColors['white-0.88'],
         'quaternary': customColors['white-0.56'],
         'quinary': customColors['light-gray'],
