@@ -308,8 +308,7 @@ function App() {
                         </span>
                         <div className="font-bold">Berlin, Germany</div>
                         <div className="text-tertiary">
-                          Currently living in Berlin, I moved here with my
-                          Family when I was 15.
+                          I love me a good döner kebab. 🥙
                         </div>
                       </div>
                       <div className="space-y-4">
@@ -371,8 +370,8 @@ function App() {
               {/* <!-- End Section Title --> */}
             </div>
             <div className="mb-10 flex-1 font-open-sans leading-relaxed text-tertiary md:w-1/2 lg:w-2/5">
-              This are some of the projects I have done from scrip tinging to
-              web development I have tried a bunch of things.
+              These are some of the cool projects I have done. From Python scrips to
+              web development and a bunch other stuff... Check my GitHub
             </div>
             <div className="mb-10 flex-1 md:w-1/2 lg:w-2/5">
               <div className="flex flex-wrap gap-3 font-poppins sm:gap-6">
@@ -394,7 +393,7 @@ function App() {
           <div className="space-y-16 sm:space-y-12">
             <div className="flex flex-col gap-10 md:flex-row lg:gap-24">
               <a
-                href="https://github.com"
+                href="https://github.com/llo7d/porfolio"
                 target="_blank"
                 rel="noreferrer"
                 className="mt-12 h-72 flex-1  sm:mt-0"
@@ -421,7 +420,7 @@ function App() {
                     </div>
                     <div className="flex items-center justify-between gap-6 md:justify-start">
                       <a
-                        href="https://github.com"
+                        href="https://github.com/llo7d/porfolio"
                         target="_blank"
                         rel="noreferrer"
 
@@ -431,7 +430,7 @@ function App() {
                       </a>
                       <div className="font-open-sans">
                         <a
-                          href="https://example.com"
+                          href="https://www.porfolio.co/"
                           target="_blank"
                           rel="noreferrer"
 
@@ -458,7 +457,7 @@ function App() {
 
             <div className="flex flex-col gap-10 md:flex-row lg:gap-24">
               <a
-                href="https://github.com"
+                href="https://github.com/llo7d/3D-Model-Showcase"
                 target="_blank"
                 rel="noreferrer"
 
@@ -485,7 +484,7 @@ function App() {
                     </div>
                     <div className="flex items-center justify-between gap-6 md:justify-start">
                       <a
-                        href="https://github.com"
+                        href="https://github.com/llo7d/3D-Model-Showcase"
                         target="_blank"
                         rel="noreferrer"
 
@@ -532,7 +531,7 @@ function App() {
               <div className="mx-8 grid grid-cols-2 gap-10 md:mx-0">
                 {/* <!-- Githu Card --> */}
                 <a
-                  href="https://github.com/peter"
+                  href="https://github.com/llo7d"
                   target="_blank"
                   rel="noreferrer"
 
@@ -561,7 +560,7 @@ function App() {
                         Github
                       </div>
                       <div className="break-words text-quaternary">
-                        https://github.com/peter
+                        https://github.com/llo7d
                       </div>
                     </div>
                   </div>
@@ -570,7 +569,7 @@ function App() {
 
                 {/* <!-- Linked InCard --> */}
                 <a
-                  href="https://linkedin.com/Peter"
+                  href="https://linkedin.com"
                   target="_blank"
                   rel="noreferrer"
 
@@ -611,7 +610,7 @@ function App() {
                         LinkedIn
                       </div>
                       <div className="break-words text-quaternary">
-                        https://linkedin.com/Peter
+                        https://linkedin.com/llo7d
                       </div>
                     </div>
                   </div>
@@ -620,7 +619,7 @@ function App() {
 
                 {/* <!-- Twitter Card --> */}
                 <a
-                  href="https://twitter.com/peter"
+                  href="https://twitter.com/llo7d"
                   target="_blank"
                   rel="noreferrer"
 
@@ -649,7 +648,7 @@ function App() {
                         Twitter
                       </div>
                       <div className="break-words text-quaternary">
-                        https://twitter.com/peter
+                        https://twitter.com/llo7d
                       </div>
                     </div>
                   </div>
