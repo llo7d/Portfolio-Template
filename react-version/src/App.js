@@ -412,7 +412,7 @@ function App() {
                     </span>
                     <div className="space-y-8 font-poppins text-primary">
                       <div className="text-3xl font-semibold">Portfolio</div>
-                      <div>Full stack Webs</div>
+                      <div>Full stack Website</div>
                       <div>
                         Built from scratch, using Next.js, Typescript, Tailwind
                         and Firebase.
@@ -478,8 +478,7 @@ function App() {
                       </div>
                       <div>Blender Script</div>
                       <div>
-                        Blender script that generates a 6.png images that
-                        generate a 360 render.
+                        Blender script that generates 5x images around a 3D model.
                       </div>
                     </div>
                     <div className="flex items-center justify-between gap-6 md:justify-start">
@@ -522,7 +521,7 @@ function App() {
               I've worked on many projects and believe I can help with yours.
             </h2>
             <p className="break-words font-open-sans text-xl leading-loose text-tertiary">
-              Anything from simple designs to full-stack development.
+              Anything from simple designs or scripts to full-stack development.
             </p>
           </div>
           <div className="mt-6 flex flex-col-reverse items-center gap-20 md:flex-row md:gap-12 lg:gap-20">
