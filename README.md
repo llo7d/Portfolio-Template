@@ -1,4 +1,7 @@
-I will try add things here, but for now just check the tutorial:
+See the site here:
+https://3d-portfolio-beryl.vercel.app/
+
+Tutorial:
 https://youtu.be/dZfTGpOufg0
 
 
