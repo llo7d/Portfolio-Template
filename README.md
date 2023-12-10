@@ -67,7 +67,8 @@ Start customizing it and add your info and projects.
 ### 3. Figma 3D Character
 
 Figma is free and you can customize the 3D character, but
-To be honest [just watch this video](https://youtu.be/dZfTGpOufg0?si=5Zys0MLz5P9RFEcJ&t=202) its like 3 minutes and its easier that way.
+</br>
+to be honest [just watch this video](https://youtu.be/dZfTGpOufg0?si=5Zys0MLz5P9RFEcJ&t=202) its easier that way.
 
 
 
