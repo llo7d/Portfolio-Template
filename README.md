@@ -13,47 +13,63 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-[![Portfolio Image](https://gyazo.com/08115824d87dc1eeed0fc27d15c59e4f)]
+![Portfolio Image](screenshot.png)
 
-[![https://gyazo.com/08115824d87dc1eeed0fc27d15c59e4f][[https://gyazo.com/08115824d87dc1eeed0fc27d15c59e4f"]](https://example.com)
+There are many great Portfolio templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one.
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+There are two versions:
+* React + TailwindCSS
+* HTML + TailwindCSS
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+But the coolest part there is also a figma file of the design and a custom 3D character that you customize and make the portfolio that more personal.
 
 
+<!-- GETTING STARTED -->
+## Getting Started
+
+### 1. HTML & TailwindCSS
+
+[See this video](https://youtu.be/dZfTGpOufg0?si=nQfjl-y6OePNoili) or follow the steps below:
+
+You dont have to do anythig...its already finished, but if you want to customize the theme color
+</br>
+Make sure you have npm installed and then just do these:
+
+  ```sh
+  npm install 
+  ```
+
+  ```sh
+  npm run watch
+  ```
+
+And start changing the theme hex color code.
+
+
+### 2. React & TailwindCSS
+
+[See this video](https://youtu.be/dZfTGpOufg0?si=nQfjl-y6OePNoili) or follow the steps below:
+
+Make sure you have npm installed and then just do:
+
+  ```sh
+  npm install 
+  ```
+
+  ```sh
+  npm run start
+  ```
+
+Yup.. thats pretty much it. 
+<br>
+Start customizing it and add your info and projects.
+
+### 3. Figma 3D Character
+
+Figma is free and you can customize the 3D character, but
+To be honest [just watch this video](https://youtu.be/dZfTGpOufg0?si=5Zys0MLz5P9RFEcJ&t=202) its like 3 minutes and its easier that way.
 
 
 
 
-
-
-
-
-If you dont like videos, here is some text you weirdo:
-
-1.
-It comes in two versions react & tailwind or html & tailwind
-
-The html version works just like that, but if you want to customize the theme colour you will need to do
-
-npm install 
-
-npm run watch
-
-And then change the main hex colour number and thats it.
-
-React is same thing, npm install and do you thing 21
-
-2.
-There is a figma file that contains a 3d character where you can customize colours. [Look at this video here.]([url](https://youtu.be/dZfTGpOufg0?si=cXstSbSKHxLY1w6-&t=263)https://youtu.be/dZfTGpOufg0?si=cXstSbSKHxLY1w6-&t=263) Figma is free, so you just drop the file and export .png images.
-
-3.
-Thats about it.
-Add your info and portfolio links etc.. and host it anywhere you want.
 
