@@ -11,7 +11,8 @@ It comes in two versions react & tailwind or html & tailwind
 
 The html version works just like that, but if you want to customize the theme colour you will need to do
 
-npm install
+npm install 
+
 npm run watch
 
 And then change the main hex colour number and thats it.
